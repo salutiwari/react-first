@@ -1,7 +1,15 @@
 import styled from "styled-components";
-const SingleProduct = () => {
-  return <Wrapper></Wrapper>;
-};
+
+// import { useParams } from "react-router-dom";
+// import { useEffect } from "react";
+// const SingleProduct = () => {
+//   const { id } = useParams();
+//   useEffect(() => {
+//     getSingleProduct();
+//   }, []);
+
+//   return <h1> Single Page</h1>;
+// };
 const Wrapper = styled.section`
   .container {
     padding: 9rem 0;
