@@ -8,9 +8,9 @@ import SingleProduct from "./SingleProduct";
 import Cart from "./Cart";
 import ErrorPage from "./ErrorPage";
 import { GlobalStyle } from "./GlobalStyle";
-import ThemeProvider from "styled-components";
+import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
-import { render } from "@testing-library/react";
+
 const App = () => {
   const theme = {
     colors: {
@@ -48,7 +48,7 @@ const App = () => {
           <Route path="/contacts" element={<Contact />} />
           <Route path="/singleproduct/:id" element={<SingleProduct />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="*" element={<ErrorPage />}></Route>
+          {/* <Route path="*" element={<ErrorPage />}></Route> */}
         </Routes>
       </Router>
     </ThemeProvider>
