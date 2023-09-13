@@ -1,5 +1,6 @@
 // import React, { useContext } from "react";
 import { useProductContext } from "./Context/ProductContext";
+
 import HeroSection from "./components/HeroSection";
 
 const About = () => {
