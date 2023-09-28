@@ -11,6 +11,7 @@ import { MdSecurity } from "react-icons/md";
 import Star from "./components/Stars";
 import AddToCart from "./components/AddToCart";
 const API = "https://api.pujakaitem.com/api/products";
+
 const SingleProduct = () => {
   const { getSingleProduct, isSingleLoading, singleProduct } =
     useProductContext();
